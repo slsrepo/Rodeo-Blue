@@ -1,0 +1,51 @@
+<plist version="1.0">
+<dict>
+<key>Author</key>
+<string>Sl's Repository Ltd</string>
+<key>Builder Version</key>
+<string>8536.30.1</string>
+<key>CFBundleDisplayName</key>
+<string>Rodeo (Blue Edition)</string>
+<key>CFBundleIdentifier</key>
+<string>com.slsrepo.rodeoblue</string>
+<key>CFBundleInfoDictionaryVersion</key>
+<string>6.0</string>
+<key>CFBundleShortVersionString</key>
+<string>0.0.2</string>
+<key>CFBundleVersion</key>
+<string>0020</string>
+<key>Chrome</key>
+<dict/>
+<key>Content</key>
+<dict>
+<key>Scripts</key>
+<dict/>
+<key>Stylesheets</key>
+<array>
+<string>rodeo.css</string>
+</array>
+</dict>
+<key>Description</key>
+<string>
+Rodeo is a Safari extension that improves the design & overall experience of Feed Wrangler. This is a modified version of Rodeo that uses blue colors.
+</string>
+<key>ExtensionInfoDictionaryVersion</key>
+<string>1.0</string>
+<key>Permissions</key>
+<dict>
+<key>Website Access</key>
+<dict>
+<key>Allowed Domains</key>
+<array>
+<string>feedwrangler.net</string>
+</array>
+<key>Include Secure Pages</key>
+<true/>
+<key>Level</key>
+<string>Some</string>
+</dict>
+</dict>
+<key>Website</key>
+<string>http://slsrepo.com/</string>
+</dict>
+</plist>
