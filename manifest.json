@@ -1,1 +1,23 @@
- 
+{
+  "manifest_version": 2,
+
+  "name": "Rodeo (Blue Edition)",
+  "description": "Rodeo is a Chrome extension that improves the design & overall experience of Feed Wrangler.",
+  "version": "0.0.2",
+  "permissions": [ "http://feedwrangler.net/*", "https://feedwrangler.net/*" ],
+  "content_scripts": [
+    {
+      "matches": [ "http://feedwrangler.net/*", "https://feedwrangler.net/*" ],
+      "css": ["rodeo.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "/assets/chevron.png",
+    "/assets/external.png",
+    "/assets/marker.png",
+    "/assets/pocket.png",
+    "/assets/search.png",
+    "/assets/star_empty.png",
+    "/assets/star_full.png"
+  ]
+}
