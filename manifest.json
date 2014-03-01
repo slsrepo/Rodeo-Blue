@@ -1,9 +1,12 @@
 {
-  "manifest_version": 2,
-
   "name": "Rodeo Blue",
   "description": "Rodeo is a Chrome extension that improves the design & overall experience of Feed Wrangler. This is a modified version of Rodeo that uses blue colors.",
-  "version": "0.0.2",
+  "version": "1.1",
+  "manifest_version": 2,
+  "update_url": "https://slsrepo.com/downloads/rodeoblueupdate.xml",
+  "icons": { "16": "feedwrangler-16.png",
+             "48": "feedwrangler-48.png",
+             "128": "feedwrangler-128.png" },
   "permissions": [ "http://feedwrangler.net/*", "https://feedwrangler.net/*" ],
   "content_scripts": [
     {
@@ -12,10 +15,14 @@
     }
   ],
   "web_accessible_resources": [
+    "/assets/banner.png",
     "/assets/chevron.png",
     "/assets/external.png",
     "/assets/marker.png",
     "/assets/pocket.png",
+    "/assets/instapaper.png",
+    "/assets/pinboard.png",
+    "/assets/checkmark.png",
     "/assets/search.png",
     "/assets/star_empty.png",
     "/assets/star_full.png"
