@@ -17,16 +17,5 @@ Installing Rodeo is really easy. You can do so by installing either the Safari o
 Download Rodeo Blue from here (currently only the Chrome extension is ready, Safari needs to be packaged):
 [https://github.com/slsrepo/Rodeo-Blue/releases](https://github.com/slsrepo/Rodeo-Blue/releases)
 
-##Little Missing Details
-These details are missing because I still didn't make them. If you don't want to wait, you can fork this project and send a Pull Request, otherwise, they will be implemented later when I make them. 
-
-- Checkmark button
-- Instapaper button
-- Pinboard button
-- Update read settings button
-- Select All/Select None stream options links
-- Matching Feed Wrangler Banner with the blue app icon.
-- Packaged Safari Extension
-
 ##License
 Rodeo is MIT Licensed.
