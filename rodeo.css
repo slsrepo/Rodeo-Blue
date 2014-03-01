@@ -331,8 +331,12 @@ p a {
 border-bottom:1px dotted #1b5fa5!important;
 }
 
-.stream_item-link img[alt="Banner@2x"] {
+img[alt="Banner@2x"] {
 content:url(chrome-extension://__MSG_@@extension_id__/assets/banner.png)!important;
+}
+
+img[alt="Check@2x"] {
+content:url(chrome-extension://__MSG_@@extension_id__/assets/checkmark.png)!important;
 }
 
 .stream_item-link img[alt="Box_expand@2x"] {
@@ -351,7 +355,7 @@ content:url(chrome-extension://__MSG_@@extension_id__/assets/instapaper.png)!imp
 content:url(chrome-extension://__MSG_@@extension_id__/assets/pinboard.png)!important;
 }
 
-.stream_item-link img[src*="check@2x"] {
+.stream_item-link img[alt="Check@2x"] {
 content:url(chrome-extension://__MSG_@@extension_id__/assets/checkmark.png)!important;
 }
 
